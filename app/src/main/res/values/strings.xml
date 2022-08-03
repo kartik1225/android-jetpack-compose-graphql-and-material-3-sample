@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LearningCompose</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_episode">EpisodeActivity</string>
+</resources>

@@ -1,0 +1,19 @@
+fragment CharacterType on Character {
+    id
+    name
+    status
+    species
+    type
+    gender
+    image
+    location {
+        ...LocationType
+    }
+}
+
+fragment LocationType on Location {
+    id
+    dimension
+    name
+}
+

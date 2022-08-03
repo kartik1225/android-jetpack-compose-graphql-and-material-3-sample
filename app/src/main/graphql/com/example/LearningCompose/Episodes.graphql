@@ -1,0 +1,24 @@
+query Episodes($id: Int!) {
+    episodes (page: $id){
+        results {
+            ...Episode
+        }
+    }
+}
+
+query Episode($id: ID!) {
+    episode (id: $id){
+        ...Episode
+    }
+}
+
+fragment Episode on Episode {
+    id
+    name
+    episode
+    air_date
+    created
+    characters {
+        ...CharacterType
+    }
+}
