@@ -11,10 +11,10 @@ This sample app follows modern android development paradigms and uses jetpack co
 ## Showcase
 It has dark and light mode using material 3 colors (Not dynamic from wallpaper) and this app adapts to system's light/dart mode.
 
-<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/master/assets/home_dark.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
-<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/master/assets/home_light.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
-<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/master/assets/characters_dark.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
-<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/master/assets/characters_light.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
+<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/main/assets/home_dark.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
+<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/main/assets/home_light.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
+<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/main/assets/characters_dark.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
+<img src="https://github.com/kartik1225/android-jetpack-compose-graphql-and-material-3-sample/blob/main/assets/characters_light.jpeg" alt="Rick and morty graphql app made with jetpack compose" width="250"/>
 
 ### Before you start
 Release build will require release keystore, in order to run please create `./gradle.properties` file and then copy the following content to it:
