@@ -3,7 +3,6 @@ package com.example.learningcompose.ui.episodeActivity
 import android.app.Application
 import android.util.Log
 import androidx.compose.runtime.*
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -24,7 +23,7 @@ class EpisodeVmFactory(private val episodeId: String) : ViewModelProvider.Factor
     }
 }
 
-class EpisodeVm(val episodeId: String) : ViewModel() {
+class EpisodeVm(episodeId: String) : ViewModel() {
     var episode = MutableStateFlow<ApiResult<Episode>>(ApiResult.Idle())
 
     var selectedCharacter by mutableStateOf<Character?>(null)

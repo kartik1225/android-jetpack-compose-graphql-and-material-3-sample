@@ -48,7 +48,7 @@ private fun Screen(vm: HomeActivityVM = viewModel()) {
         topBar = { AppBar() },
         bottomBar = { BottomBar(navController = navController) },
 
-    ) {
+        ) {
         Box(Modifier.padding(it)) {
             DestinationsNavHost(navController = navController, navGraph = NavGraphs.root)
         }
@@ -58,7 +58,7 @@ private fun Screen(vm: HomeActivityVM = viewModel()) {
 @Composable
 private fun AppBar() {
     CenterAlignedTopAppBar(
-      title = { Text("Learning Compose") },
+        title = { Text("Learning Compose") },
     )
 }
 
